@@ -15,7 +15,6 @@ def find_params(response):
         return match.group(1)
     else:
         raise "Warning: video might not have transcript available, need to check manually"
-        return None
     
 def store_transcript(response):
     pattern = re.compile(rf'{re.escape("\"text\":\"")}\s*(\S.*?")', re.DOTALL)
