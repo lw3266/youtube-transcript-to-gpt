@@ -1,6 +1,8 @@
 # YouTube Transcript to GPT
 The purpose of this tool is to 1) help rip transcript from YouTube without api (no need for signin to reduce some data tracking), 2) accelerate learning with LLM.
 
+Disclaimer: might contain LLM generated code; this project is for fun and experimental, and favors data privacy over reliability. 
+
 ## Using the tool
 
 ### Setup
